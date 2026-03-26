@@ -67,3 +67,6 @@ Kevin Silva Fernandes - Exercício 6 - Pergunta de aplicação
 Proponha um projeto simples utilizando sensores e atuadores para resolver o problema real.
 
 R: projeto que usa a detecção da luz solar em um determinado horario para irrigar as plantas: O sistema pode usar um microcontrolador, um sensor de luminosidade (LDR) para detectar a intensidade da luz solar e um módulo de relógio (RTC) para verificar o horário. Como atuador, seria utilizada uma pequena bomba de água ou uma válvula elétrica para liberar a irrigação.Na prática, o sistema funcionaria assim: o sensor de luz identifica se há presença de luz solar e mede sua intensidade. Ao mesmo tempo, o relógio verifica se está dentro de um horário programado, como início da manhã ou final da tarde. Se as duas condições forem atendidas (luz adequada e horário correto), o microcontrolador aciona a bomba de água para irrigar as plantas por um tempo determinado.Esse tipo de projeto é simples, econômico e ajuda a economizar água, além de cuidar melhor das plantas sem necessidade de intervenção constante.
+
+Vitor Moretti - exercicio 7
+No simulador, adicione um botão ao circuito do LED. Programe para que o LED acenda apenas quando o botão for pressionado. Descreva o Funcionamento.

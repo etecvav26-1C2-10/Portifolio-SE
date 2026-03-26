@@ -27,7 +27,7 @@ void loop()
  digitalWrite(3, HIGH);
   delay(100);
 }
-
+.
 porém se continuo torna-se claro:
 
 void setup()
@@ -46,10 +46,11 @@ void loop()
   delay(100);
   
 }
-
+.
 Com 500 ms já é mais estável e notável, cujo código é: 
 
  digitalWrite(3, HIGH);
   delay(500);
+ .
 
 

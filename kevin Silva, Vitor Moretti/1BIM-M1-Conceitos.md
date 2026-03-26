@@ -53,4 +53,7 @@ Com 500 ms já é mais estável e notável, cujo código é:
   delay(500);
  .
 
+Kevin Silva Fernandes - Exercício 4 - Pergunta de reflexão
+Quais são as vantagens e desvantagens do uso de hardware open source em projetos iot?
 
+R:O uso de hardware open source em projetos de IoT tem várias vantagens, principalmente para quem está começando ou quer economizar. Em geral, esses dispositivos são mais baratos e fáceis de encontrar, além de terem muita documentação disponível na internet. Outra vantagem é a liberdade de modificar o projeto do jeito que quiser, adaptando às suas necessidades. Também existe uma comunidade grande que ajuda bastante, com fóruns, vídeos e exemplos práticos.Por outro lado, nem tudo é perfeito. Como não há sempre um suporte oficial, às vezes pode ser difícil resolver problemas mais específicos. A segurança também pode ser um ponto fraco se o projeto não for bem configurado, já que tudo é mais aberto. Além disso, alguns componentes podem ter qualidade variável ou não seguir um padrão tão rígido, o que pode gerar dificuldades na integração.No fim das contas, o hardware open source é uma ótima opção, mas é importante ter um pouco de cuidado e planejamento para evitar dores de cabeça no projeto.

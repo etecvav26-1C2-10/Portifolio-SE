@@ -70,3 +70,11 @@ R: projeto que usa a detecção da luz solar em um determinado horario para irri
 
 Vitor Moretti - exercicio 7
 No simulador, adicione um botão ao circuito do LED. Programe para que o LED acenda apenas quando o botão for pressionado. Descreva o Funcionamento.
+
+--
+
+Vitor Moretti - exercicio 9 
+Explique como sensores e atuadores trabalham juntos em um sistema de irrigação automatizado.
+
+R: Em um sistema de irrigação automatizado, sensores, controladores e atuadores trabalham em conjunto para tomar decisões e agir sem intervenção humana. A ideia é de que os sensores detectem informações como humidade do solo, temperatura externa, preciptação e intensidade da incidência da luz solar no ambiente, enviando os dados aos controladores que, ao analizarem, decidem se os atuadores executarão suas ações com base nessas informações, como, por exemplo, se a humidade do solo estiver abaixo de 30%, ligar os irrigadores. Com isso é possível economizar agua e mão de obra, ainda sendo capaz de aumentar a eficiencia.
+

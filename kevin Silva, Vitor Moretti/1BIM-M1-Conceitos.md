@@ -71,7 +71,7 @@ R: projeto que usa a detecção da luz solar em um determinado horario para irri
 Vitor Moretti - exercicio 7 - Pergunta de investigação
 No simulador, adicione um botão ao circuito do LED. Programe para que o LED acenda apenas quando o botão for pressionado. Descreva o Funcionamento.
 
-R:O LED está conectado a um pino de saída do Arduino, enquanto o botão está ligado a um pino de entrada. Quando o circuito está em repouso (ou seja, quando o botão não está sendo pressionado), o Arduino lê um valor baixo (LOW) no pino do botão. Com isso, ele mantém o LED apagado.Quando o botão é pressionado, ele fecha o circuito e permite que a corrente elétrica chegue ao pino de entrada do Arduino, fazendo com que ele leia um valor alto (HIGH). Ao identificar esse sinal, o Arduino envia energia para o pino onde o LED está conectado, fazendo com que ele acenda. Assim que o botão é solto, o circuito se abre novamente, o sinal volta para LOW e o Arduino desliga o LED.
+R: O LED está conectado a um pino de saída do Arduino, enquanto o botão está ligado a um pino de entrada. Quando o circuito está em repouso (ou seja, quando o botão não está sendo pressionado), o Arduino lê um valor baixo (LOW) no pino do botão. Com isso, ele mantém o LED apagado.Quando o botão é pressionado, ele fecha o circuito e permite que a corrente elétrica chegue ao pino de entrada do Arduino, fazendo com que ele leia um valor alto (HIGH). Ao identificar esse sinal, o Arduino envia energia para o pino onde o LED está conectado, fazendo com que ele acenda. Assim que o botão é solto, o circuito se abre novamente, o sinal volta para LOW e o Arduino desliga o LED.
 
 Kevin silva - Exercício 8 - Pergunta de reflexão
 Como o movimento maker contribui para o aprendizado em tecnologia?

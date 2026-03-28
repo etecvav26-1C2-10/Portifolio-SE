@@ -83,3 +83,7 @@ Explique como sensores e atuadores trabalham juntos em um sistema de irrigação
 
 R: Em um sistema de irrigação automatizado, sensores, controladores e atuadores trabalham em conjunto para tomar decisões e agir sem intervenção humana. A ideia é de que os sensores detectem informações como humidade do solo, temperatura externa, preciptação e intensidade da incidência da luz solar no ambiente, enviando os dados aos controladores que, ao analizarem, decidem se os atuadores executarão suas ações com base nessas informações, como, por exemplo, se a humidade do solo estiver abaixo de 30%, ligar os irrigadores. Com isso é possível economizar agua e mão de obra, ainda sendo capaz de aumentar a eficiencia.
 
+Kevin Fernandes - exercício 10 - pergunta de investigação
+Explore um projeto pronto no Wokwi ou Tinkercad. Modifique algum parâmetro (tempo, sensor, etc.) e descreva oq mudou.
+
+R:Eu explorei um projeto pronto no Tinkercad, especificamente um circuito com Arduino e LED piscando. No projeto original, o LED piscava com um intervalo de 1 segundo (1000 ms), então eu modifiquei esse parâmetro no código, alterando o tempo para 300 ms. Depois da alteração, o LED passou a piscar muito mais rápido, porque antes dava pra perceber claramente o tempo ligado e desligado, mas depois da mudança ele ficou quase contínuo, piscando em alta velocidade. Essa modificação mostrou como o tempo no código influencia diretamente o comportamento do circuito, já que pequenas mudanças nos valores podem alterar bastante o resultado final do projeto.

@@ -73,6 +73,11 @@ No simulador, adicione um botão ao circuito do LED. Programe para que o LED ace
 
 --
 
+Kevin silva - Exercício 8 
+Como o movimento maker contribui para o aprendizado em tecnologia?
+
+R: Ele cria espaço para que o estudante possa ter experiencia na forma prática do objeto de estudo, aprendendo com seus erros, criando senso critico e se adaptando ao funcionamento do sistema, o preparando mais adequadamente ao mercado de trabalho. Esse formato pode incluir ambitos como a ciencia, arte, engenharia, matematica e tecnologia, como no caso do Tinkercad, que possibilita testar os conceitos mais básicos de um sistema embarcado e dá espaço para aprofundamentos.
+
 Vitor Moretti - exercicio 9 
 Explique como sensores e atuadores trabalham juntos em um sistema de irrigação automatizado.
 

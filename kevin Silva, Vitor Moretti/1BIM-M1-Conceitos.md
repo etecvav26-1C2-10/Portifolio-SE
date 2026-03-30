@@ -2,7 +2,7 @@
 ## Turma: 1ºC2
 ## Etec Vasco Antonio Venchiarutti
 
-' Vitor Moretti - Exercicio 1 - Pergunta concenitual
+ Vitor Moretti - Exercicio 1 - Pergunta concenitual
 Explique com suas palavras o que é Internet das Coisas (IoT) e cite um exemplo do cotidiano.
 
 R:A Internet das Coisas (IoT) é um conceito da área de Tecnologia da Informação que se refere à conexão de objetos do dia a dia à internet, permitindo que eles coletem e troquem dados automaticamente. Esses objetos podem ser desde eletrodomésticos até carros e dispositivos vestíveis, todos equipados com sensores e softwares. A ideia principal é tornar esses itens “inteligentes”, capazes de tomar decisões ou enviar informações sem intervenção humana constante. Isso facilita a automação de tarefas, melhora a eficiência e pode trazer mais conforto e segurança para as pessoas.Um exemplo comum no cotidiano é uma lâmpada inteligente, que pode ser controlada pelo celular: você pode ligar ou desligar a luz, ajustar a intensidade ou até programar horários ciclicos, tudo à distância ou com intervenção minima.

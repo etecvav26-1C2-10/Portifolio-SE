@@ -17,7 +17,7 @@ Vitor Moretti - Exercicio 3 - Pergunta de Investigação
 -Utilize o simulador Wolki ou Tinkercad Para montar um circuito com LED. Teste diferentes tipo de delay e registre o comportamento observado.
 
 R: Com delay de 100 ms (0,1 segundos) o LED tem ação quase imperceptivel: 
-
+```
 void setup()
 {
  pinMode(3, OUTPUT);
@@ -52,6 +52,7 @@ Com 500 ms já é mais estável e notável, cujo código é:
  digitalWrite(3, HIGH);
   delay(500);
  .
+ ```
 
 Kevin Silva Fernandes - Exercício 4 - Pergunta de reflexão
 -Quais são as vantagens e desvantagens do uso de hardware open source em projetos iot?

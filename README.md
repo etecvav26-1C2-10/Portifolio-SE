@@ -11,5 +11,5 @@ Este portfólio representa nossa evolução no aprendizado de sistemas embarcado
 ---
 ## Plataforma utilizidada:
 <p>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/7/7b/Tinkercad_Logo.svg" width="120">
+ <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Tinkercad_Logo.svg/512px-Tinkercad_Logo.svg.png" width="120">
 </p>

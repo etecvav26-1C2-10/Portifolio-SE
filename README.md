@@ -8,6 +8,7 @@ Ao longo das atividades, exploramos conceitos importantes como circuitos eletrô
 Os projetos também envolveram trabalho em equipe, o que contribuiu para desenvolver habilidades como colaboração, organização e resolução de problemas em conjunto.
 
 Este portfólio representa nossa evolução no aprendizado de sistemas embarcados, unindo teoria e prática de forma dinâmica e aplicada.</p>
+
 ---
 ## Plataforma utilizada:
 <p>

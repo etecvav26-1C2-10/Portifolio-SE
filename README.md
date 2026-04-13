@@ -8,3 +8,8 @@ Ao longo das atividades, exploramos conceitos importantes como circuitos eletrô
 Os projetos também envolveram trabalho em equipe, o que contribuiu para desenvolver habilidades como colaboração, organização e resolução de problemas em conjunto.
 
 Este portfólio representa nossa evolução no aprendizado de sistemas embarcados, unindo teoria e prática de forma dinâmica e aplicada.</p>
+---
+## Plataforma utilizidada:
+<p>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/7/7b/Tinkercad_Logo.svg" width="120">
+</p>

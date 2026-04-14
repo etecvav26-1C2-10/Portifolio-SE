@@ -1,4 +1,4 @@
-# Código atividade 2
+# Código atividade 2:
 
 ```bash
 // C++ code
@@ -58,5 +58,6 @@ void loop()
   
 }
 ```
+# Imagem do projeto:
 <img width="1920" height="848" alt="image" src="https://github.com/user-attachments/assets/762d74b3-7e80-4e87-a321-583805f39c36" />
 

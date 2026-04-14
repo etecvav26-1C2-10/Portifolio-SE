@@ -1,0 +1,77 @@
+Isabely Caconde & Gabriely Alves - 1°C2 
+
+Isabely - questão 1: 
+-Explique com suas palavras o que é Internet das Coisas (IoT) e cite um exemplo do cotidiano.
+Internet das Coisas, conhecida pela sigla IoT (Internet of Things), é a conexão de objetos físicos do dia a dia à internet, o que significa equipar 
+itens comuns ; como lâmpadas, geladeiras, fechaduras ou relógios usando sensores, software e conectividade, permitindo que 
+eles coletem, troquem dados e "conversem" entre si e com usuários, sem precisar de intervenção humana constante.
+
+Gabriely – questão 2:
+-Descreva como um sistema embarcado poderia ser usado para automatizar a iluminação de uma casa.
+Um sistema embarcado pode automatizar a iluminação de uma casa usando um pequeno controlador conectado a sensores e lâmpadas; Sensores de presença, luz ambiente ou horários programados enviam informações para o sistema, que decide quando ligar ou desligar as luzes automaticamente, por exemplo, as luzes podem acender quando alguém entra em um cômodo e apagar quando não há movimento, ou ajustar o brilho conforme a luz natural. 
+
+Isabely – questão 3:
+--Utilize o simulador Wolki ou Tinkercad Para montar um circuito com LED. Teste diferentes tipo de delay e registre o comportamento observado.
+void setup()
+{
+ pinMode(3, OUTPUT);
+}
+void loop()
+{
+ digitalWrite(3, HIGH);
+  delay(100);
+}
+.
+porém se continuo torna-se claro:
+
+void setup()
+{
+ pinMode(3, OUTPUT);
+}
+void loop()
+{
+ digitalWrite(3, HIGH);
+  delay(100);
+   digitalWrite(3, LOW);
+  delay(100);
+   digitalWrite(3, HIGH);
+  delay(100);
+   digitalWrite(3, LOW);
+  delay(100);
+  
+}
+.
+Com 500 ms já é mais estável e notável, cujo código é: 
+
+ digitalWrite(3, HIGH);
+  delay(500);
+ .
+
+
+Gabriely -  questão 4:
+-Quais são as vantagens e desvantagens do uso de hardware open source em projetos IOT?
+O uso de hardware open source em projetos de IOT tem várias vantagens, principalmente para quem está começando ou quer economizar. Em geral, esses dispositivos são mais baratos e fáceis de encontrar, além de terem muita documentação disponível na internet. Outra vantagem é a liberdade de modificar o projeto do jeito que quiser, adaptando às suas necessidades, também existe uma comunidade grande que ajuda bastante, com fóruns, vídeos e exemplos práticos. Por outro lado, nem tudo é perfeito, como não há sempre um suporte oficial, às vezes pode ser difícil resolver problemas mais específicos. A segurança também pode ser um ponto fraco se o projeto não for bem configurado, já que tudo é mais aberto. Além disso, alguns componentes podem ter qualidade variável ou não seguir um padrão tão rígido, o que pode gerar dificuldades na integração; No fim das contas, o hardware open source é uma ótima opção, mas é importante ter um pouco de cuidado e planejamento para evitar dores de cabeça no projeto.
+
+Isabely – questão 5:
+ -Qual a função de um microcontrolador em um sistema embarcado?
+O microcontrolador é como o cérebro do sistema, ele capta informações dos receptores, processa todos os dados e toma decisões com base no que foi enviado e programado.
+
+Gabriely – questão 6:
+- Proponha um projeto simples utilizando sensores e atuadores para resolver o problema real.
+Um projeto simples é um sistema de iluminação automática para economizar energia: usando um sensor de presença (que detecta se tem alguém no ambiente) e um sensor de luz (que percebe se está escuro), um microcontrolador como o Arduino Uno decide quando ligar ou desligar uma lâmpada; assim, a luz só acende quando alguém entra no local e está escuro, e apaga sozinha quando a pessoa sai, evitando desperdício de energia.
+
+Isabely – questão 7:
+- No simulador, adicione um botão ao circuito do LED. Programe para que o LED acenda apenas quando o botão for pressionado. Descreva o Funcionamento.
+No simulador, você conecta um botão ao circuito junto com o LED e programa o microcontrolador, como o Arduino Uno, para ler o estado desse botão; quando o botão não está pressionado, o circuito fica aberto e o LED permanece apagado, mas ao pressionar o botão, o circuito se fecha, o Arduino detecta esse sinal e envia energia para o LED, fazendo com que ele acenda, e assim que o botão é solto, o LED apaga novamente.
+
+Gabriely – questão 8:
+- Como o movimento maker contribui para o aprendizado em tecnologia?
+O movimento maker contribui para o aprendizado em tecnologia porque incentiva aprender fazendo, permitindo criar projetos, testar ideias e entender melhor conceitos de programação e eletrônica com ferramentas como o Arduino Uno.
+
+Isabely – questão 9:
+- Explique como sensores e atuadores trabalham juntos em um sistema de irrigação automatizado.
+Em um sistema de irrigação automatizado, sensores, controladores e atuadores trabalham em conjunto para tomar decisões e agir sem intervenção humana. A ideia é de que os sensores detectem informações como humidade do solo, temperatura externa, preciptação e intensidade da incidência da luz solar no ambiente, enviando os dados aos controladores que, ao analizarem, decidem se os atuadores executarão suas ações com base nessas informações, como, por exemplo, se a humidade do solo estiver abaixo de 30%, ligar os irrigadores. Com isso é possível economizar agua e mão de obra, ainda sendo capaz de aumentar a eficiencia.
+
+Gabriely – questão 10:
+- Explore um projeto pronto no Wokwi ou Tinkercad. Modifique algum parâmetro (tempo, sensor, etc.) e descreva o que mudou.
+No projeto original, o LED piscava com um intervalo de 1 segundo (1000 ms), então eu modifiquei esse parâmetro no código, alterando o tempo para 300 ms. Depois da alteração, o LED passou a piscar muito mais rápido, porque antes dava pra perceber claramente o tempo ligado e desligado, mas depois da mudança ele ficou quase contínuo, piscando em alta velocidade. Essa modificação mostrou como o tempo no código influencia diretamente o comportamento do circuito, já que pequenas mudanças nos valores podem alterar bastante o resultado final do projeto.

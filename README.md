@@ -15,9 +15,12 @@ Este portfólio representa nossa evolução no aprendizado de sistemas embarcado
 <img src="https://img.shields.io/badge/Tinkercad-00C7B7?style=for-the-badge&logo=autodesk&logoColor=white">
 </p>
 
-# 📋 Cronograma - 2º Bimestre
+---
 
-| Menção | Tipo | Atividade | Data Entrega | Link | Obs |
-|---|---|---|---|---|---|
-| M1 | Projeto | Dado | 19/05/2026 | [Abrir](https://github.com/zahroniel-syrran/syrran-tech-academy/blob/main/atividades/sistemas-embarcados-iot/1C2_SistEmbarcados_Atividade03.pdf) | |
-| M4 | Portfólio | Análise do Github do grupo | 16/06/2026 | [Abrir](https://github.com/ronildo-ferreira/ronildo-human-layer/tree/main/01-EtecVAV/1C2/se-iot-sistemas-embarcados/2BIM) | |
+# 📋 Cronograma - 2 Bimestre
+
+| Menção | Tipo      | Atividade                 | Data Entrega | Link |
+|--------|------------|---------------------------|--------------|------|
+| M1 | Projeto | Dado | 19/05/2026 | [Abrir](https://github.com/zahroniel-syrran/syrran-tech-academy/blob/main/atividades/sistemas-embarcados-iot/1C2_SistEmbarcados_Atividade03.pdf) |
+| M2 | Projeto | Semaforo(botão) | 26/05/2026 | [Abrir](https://github.com/zahroniel-syrran/syrran-tech-academy/blob/main/atividades/sistemas-embarcados-iot/1C2_SistEmbarcados_Atividade04.pdf) |
+| M4 | Portfólio | Análise do Github do grupo | 16/06/2026 | [Abrir](https://github.com/ronildo-ferreira/ronildo-human-layer/tree/main/01-EtecVAV/1C2/se-iot-sistemas-embarcados/2BIM) |

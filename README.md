@@ -10,6 +10,15 @@ Os projetos também envolveram trabalho em equipe, o que contribuiu para desenvo
 Este portfólio representa nossa evolução no aprendizado de sistemas embarcados, unindo teoria e prática de forma dinâmica e aplicada.</p>
 
 ---
+## 👥 Integrantes
+
+| Nome | GitHub |
+|------|--------|
+| Gabriel | [@chuuyaswine](https://github.com/chuuyaswine) |
+| Isa | [@lunarcommit](https://github.com/lunarcommit) |
+| Kevin | [@Kevin645757hfh](https://github.com/Kevin645757hfh) |
+| Vitor | [@vitor-moretti](https://github.com/vitor-moretti) |
+---
 ## Plataforma utilizada:
 <p>
 <img src="https://img.shields.io/badge/Tinkercad-00C7B7?style=for-the-badge&logo=autodesk&logoColor=white">

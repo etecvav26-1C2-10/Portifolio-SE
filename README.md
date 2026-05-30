@@ -1,6 +1,6 @@
 # Portifolio-SE
 ---
-<h1>Bem-vindos ao portifolio-SE</h1>
+<h1> 👋 Bem-vindos ao portifolio-SE</h1>
 <p>Este portfólio reúne atividades desenvolvidas na disciplina de Sistemas Embarcados, utilizando o Tinkercad como principal ferramenta para simulação dos projetos.
 
 Ao longo das atividades, exploramos conceitos importantes como circuitos eletrônicos, uso de sensores, atuadores e programação voltada para microcontroladores. O Tinkercad foi fundamental para testar ideias na prática, permitindo simular montagens e entender melhor o funcionamento de cada componente.
@@ -19,7 +19,7 @@ Este portfólio representa nossa evolução no aprendizado de sistemas embarcado
 | Kevin | [@Kevin645757hfh](https://github.com/Kevin645757hfh) |
 | Vitor | [@vitor-moretti](https://github.com/vitor-moretti) |
 ---
-## Plataforma utilizada:
+## 💻 Plataforma utilizada:
 <p>
 <img src="https://img.shields.io/badge/Tinkercad-00C7B7?style=for-the-badge&logo=autodesk&logoColor=white">
 </p>

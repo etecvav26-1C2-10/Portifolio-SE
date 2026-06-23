@@ -51,16 +51,18 @@ void loop()
     digitalWrite (5, HIGH);
     digitalWrite (6, HIGH);
     
-    if(botaoP == 1){	
-    	pedestre();
-      	return;
-    }
+    
    
     if(millis() - tempo >= Tverde){
       	digitalWrite (5, LOW);
       	digitalWrite (6, LOW);
       	digitalWrite (4, HIGH);
       	digitalWrite (7, HIGH);
+      
+      	if(botaoP == 1){	
+    	pedestre();
+      	return;
+    	}
           
       	posicao = 2;
       	tempo = millis();

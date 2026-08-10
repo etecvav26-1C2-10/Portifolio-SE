@@ -30,5 +30,5 @@ Este portfólio representa nossa evolução no aprendizado de sistemas embarcado
 
 | Menção | Tipo      | Atividade                 | Data Entrega | Link |
 |--------|------------|---------------------------|--------------|------|
-| M1 | Projeto | 	Dado Eletrônico, Servo Motor e Sensor de Distância (Sensor Ultrassônico) | 19/05/2026 | [Abrir](https://github.com/zahroniel-syrran/syrran-tech-academy/blob/main/atividades/sistemas-embarcados-iot/1C2_SistEmbarcados_Atividade05.pdf) |
+| M1 | Projeto | 	Dado Eletrônico, Servo Motor e Sensor de Distância (Sensor Ultrassônico) | 11/08/2026 | [Abrir](https://github.com/zahroniel-syrran/syrran-tech-academy/blob/main/atividades/sistemas-embarcados-iot/1C2_SistEmbarcados_Atividade05.pdf) |
 | M4 | Portfólio | Análise do Github do grupo | 16/06/2026 | [Abrir](https://github.com/ronildo-ferreira/ronildo-human-layer/tree/main/01-EtecVAV/1C2/se-iot-sistemas-embarcados/2BIM) |

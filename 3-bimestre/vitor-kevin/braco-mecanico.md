@@ -1,0 +1,50 @@
+<h1> BRAÇO MECÂNICO</h1>
+
+<p>Imagem:</p>
+<img width="1920" height="848" alt="Frantic Uusam-Stantia" src="https://github.com/user-attachments/assets/67f3bafa-4f67-482b-a2df-bed3c68f3073" />
+
+" />
+
+---
+<p>código: </p>
+
+```
+#include <Servo.h>
+
+Servo servo1; //base 1
+Servo servo2; //base 2
+Servo servo3; //boca 1
+Servo servo4; //boca 2
+
+const int pot1 = A3; 
+const int pot2 = A2;
+const int pot3 = A1; 
+const int pot4 = A0; 
+
+void setup() {
+ servo1.attach(3);
+ servo2.attach(5);
+ servo3.attach(6);
+ servo4.attach(9);
+}
+
+void loop() {
+ int leitura1 = analogRead(pot1); 
+ int leitura2 = analogRead(pot2); 
+ int leitura3 = analogRead(pot3); 
+ int leitura4 = analogRead(pot4); 
+
+  //leitura c/ limitador	// pots // angulo //
+  int angulo1 = map(leitura1, 0, 1023, 0, 180); //base
+  int angulo2 = map(leitura2, 0, 1023, 0, 180); //base
+  int angulo3 = map(leitura3, 0, 1023, 15, 80); //boca
+  int angulo4 = map(leitura4, 0, 1023, 15, 80); //boca
+  
+  servo1.write(angulo1);
+  servo2.write(angulo2);
+  servo3.write(angulo3);
+  servo4.write(angulo4);
+  
+  delay(15);
+}
+```

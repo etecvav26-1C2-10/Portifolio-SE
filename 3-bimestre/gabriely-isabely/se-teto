@@ -1,0 +1,57 @@
+#include <Servo.h>
+
+constexpr byte PIN_SENSOR_LUZ         = A2;
+constexpr byte PIN_SENSOR_TEMP      = A1;
+constexpr byte PIN_SERVO_MOTOR      = 3;
+constexpr byte PIN_LED_STATUS_ABERTO = 6;
+constexpr byte PIN_LED_STATUS_FECHADO= 5;
+
+const float THRESHOLD_TEMPERATURA = 28.0f;
+const int   THRESHOLD_LUZ         = 700;
+
+Servo telhadoServo;
+
+float obterTemperaturaCelsius() {
+    int leituraBruta = analogRead(PIN_SENSOR_TEMP);
+    float tensaoVolts = leituraBruta * (5.0 / 1024.0);
+    return (tensaoVolts - 0.5) * 100.0;
+}
+
+bool verificarSeDeveFechar(int nivelLuz, float temperaturaAtual) {
+    bool luzBaixa  = (nivelLuz < THRESHOLD_LUZ);
+    bool calorForte = (temperaturaAtual > THRESHOLD_TEMPERATURA);
+    
+    return (luzBaixa || calorForte);
+}
+
+void aplicarEstadoTelhado(bool deveFechar) {
+    if (deveFechar) {
+        telhadoServo.write(0);
+        digitalWrite(PIN_LED_STATUS_ABERTO, LOW);
+        digitalWrite(PIN_LED_STATUS_FECHADO, HIGH);
+    } else {
+        telhadoServo.write(90);
+        digitalWrite(PIN_LED_STATUS_ABERTO, HIGH);
+        digitalWrite(PIN_LED_STATUS_FECHADO, LOW);
+    }
+}
+
+void setup() {
+    pinMode(PIN_LED_STATUS_ABERTO, OUTPUT);
+    pinMode(PIN_LED_STATUS_FECHADO, OUTPUT);
+    
+    telhadoServo.attach(PIN_SERVO_MOTOR);
+    
+    aplicarEstadoTelhado(true);
+}
+
+void loop() {
+    int leituraLuminosidade = analogRead(PIN_SENSOR_LUZ);
+    float temperatura       = obterTemperaturaCelsius();
+    
+    bool acaoFechar = verificarSeDeveFechar(leituraLuminosidade, temperatura);
+    
+    aplicarEstadoTelhado(acaoFechar);
+    
+    delay(500);
+}
